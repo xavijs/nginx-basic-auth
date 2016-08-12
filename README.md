@@ -16,7 +16,7 @@ Or if you have the sources and you want to run using docker-compose then in the 
 > $ docker-compose up -d
 
 
-This will start the server in port 80, you can access here: http://localhost and you can modify all files under "/www/" folder and see changes in web without rebuilding docker.
+This will start the server in port 80, you can access by clicking [HERE](http://localhost) and you can modify all files under "/www/" folder and see changes in web without rebuilding docker.
 
 # Default login
 
