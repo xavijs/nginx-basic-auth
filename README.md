@@ -13,3 +13,12 @@ In the root of the project:
 > $ docker-compose up -d
 
 This will start the server in port 80, you can access here: http://localhost and you can modify all files under "/www/" folder and see changes in web without rebuilding docker.
+
+# Default login
+
+By default this container is using this login.
+
+User: hello
+Pass: world
+
+
