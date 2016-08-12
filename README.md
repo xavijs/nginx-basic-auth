@@ -9,8 +9,12 @@ You can also:
 
 # Run
 
-In the root of the project:
+To run the built image from docker hub use:
+> $ docker run -d -p 80:80 xavijs/nginx-basic-auth
+
+Or if you have the sources and you want to run using docker-compose then in the root of the project:
 > $ docker-compose up -d
+
 
 This will start the server in port 80, you can access here: http://localhost and you can modify all files under "/www/" folder and see changes in web without rebuilding docker.
 
