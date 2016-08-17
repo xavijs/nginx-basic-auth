@@ -19,6 +19,7 @@ If you want your custom website:
 * Create a folder called www
 * Create a index.html file inside a www folder with your custom website
 * Execute this command from the main folder, which contains www folder:
+
 > $ docker run -d -v $PWD/www:/usr/share/nginx/html -p 80:80 xavijs/nginx-basic-auth
 
 This will start the server in port 80, you can access by clicking [HERE](http://localhost) and you can modify all files under "/www/" folder and see changes in web without rebuilding docker.
