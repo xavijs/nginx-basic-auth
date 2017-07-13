@@ -1,4 +1,4 @@
-# Basic nginx authentication
+# Nginx basic HTTP Authentication
 
 This container allows to publish a website using nginx and restrict the access using the authentication module of nginx.
 
